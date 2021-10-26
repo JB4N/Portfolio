@@ -1,0 +1,80 @@
+.Jp-1 {
+    background-color: white;
+    position: static;
+    width: 1000px;
+    height: 500px;
+}
+body {
+background-color: gray;
+width: 1600px;
+}
+.Jp-2 {
+    background-color: red;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    top: -400px;
+    left: 350px;
+}
+.inst-1 {
+    position: static;
+    background: linear-gradient(45deg, yellow, red, blue);
+    width: 500px;
+    height: 500px;
+    border-radius: 30%;
+}
+.inst-2 {
+    position: relative;
+    top: -500px;
+    left: 35px;
+    color: white;
+    width: 450px;
+    height: 450px;
+}
+.Jp {
+    position: relative;
+    top: 500px;
+}
+i {
+    font-size: 500px;
+}
+.pencil {
+    display: block;
+    width: 200px;
+    height: 1000px;
+}
+
+.d1 {
+    width: 0; 
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom:100px solid #24375B;
+    left: 50px;
+    position: relative;
+}
+
+.d2 {
+    height: 0; 
+    width: 100px;
+    border-bottom: 100px solid #FFE344;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}   
+.d3 {
+    height: 600px;
+    width: 200px;
+    display: flex;
+}
+.inst {
+    position: relative;
+    top: -700px;
+    left: 300px;
+}
+.d4 {
+    height: 600px;
+    width: 99px;
+    border: solid black;
+    background-color: aqua;
+}
