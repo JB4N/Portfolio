@@ -23,12 +23,14 @@ h1 {
 .main-inner {
     display: flex;
     flex-direction: row;
+    border: black solid;
 }
 .main-left {
     background-color: yellow;
     width: 30%;  
     height: 700px;
     align-items: center;
+    border-right: solid black;
 } 
 .main-right { 
     background-color: purple;
@@ -40,6 +42,8 @@ h1 {
 img {
     background-color: purple;
     width: 600px;
+    border: solid black;
+    margin-top: 10px;
 }
 .footer {
     width: 100%;
@@ -53,12 +57,20 @@ img {
     background-color: black;
 }   
 .block {
-    background-color: black;
-    width: 70px;
-    height: 70px;
+    background-color: rgb(248, 0, 0);
+    width: 150px;
+    height: 150px;
     align-content: space-between; 
     padding: 5px;
-    border: 5px solid gray;
+    border: 5px solid black;
     align-content: space-between;
+}
+.blocks {
     flex-direction: row;
+    display: flex;
+}
+li {
+    font-size: 60px;
+    padding: 50px;
+    margin-left: 20px;
 }

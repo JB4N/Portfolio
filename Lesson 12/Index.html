@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_ru4phHqu6Q9DE8jaLMZ9h');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_ok6xmyb', 'template_lzy9e0m', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+    <link rel="stylesheet" href="./Styles/Style.css">
+</head>
+<body>
+    <div class="Main">
+        <div class="Left">
+            <div class="Container">
+                <div class="Left-inner">
+                    <Form action="" id="contact-form">
+                        <input type="hidden" name="contact_number">
+                        <h1>Contact Us</h1>
+                        <p>
+                            <p>or use our contact fotm below</p>
+                            <label for="name">
+                                <input type="text" name="from_name" id="name" required placeholder="Name">
+                            </label>
+                            <label for="email">
+                                <input type="email" name="reply_to" id="email" required placeholder="Email">
+                            </label>
+                            <label for="tel"> 
+                                <input type="tel" name="phone" id="tel" placeholder="Phone">
+                            </label>
+                        </p>
+                        <p>
+                            <p>Type your message here:</p>
+                            <textarea name="message" id="" cols="30" rows="10"></textarea>
+                        </p>
+                        <p>
+                            <p>Need additional help?</p>
+                            <input type="submit" value="Send">
+                        </p>
+                    </Form>
+                </div>
+            </div>
+        </div>
+        <div class="Right">
+            <div class="Container">
+                <div class="Right-inner">
+                    <form action="" id="contact-form">
+                        <h1>Hello, User!</h1>
+                        <p>If you want to know more info about our project than</p>
+                        <input type="button" value="Submit">
+                    </form>    
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
