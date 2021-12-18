@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    max-width: 1600px;
+    text-align: center;
+}
+.container {
+    width: 100%;
+    height: 792px;
+}
+.header {
+    width: 100%;
+    background: url(../Images/Layer\ 10@1X.png);
+    height: 792px;
+}
+.header-inner {
+    width: 1600px;
+    background-color: black;
+    height: 792px;
+    opacity: 0.6;
+    
+}
+.navigator {
+    display: flex;
+    color: white;
+    margin-left: 229px;
+    font-size: 24px;
+}
+.nav {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 507px;
+    margin-right: 265px;
+    font-size: 14px;
+    margin-top: 40px;
+    padding: 10px;
+}
+.logo {
+    margin-top: 40px;
+}
+.caption {
+    color: white;
+    width: 586px;
+    height: 169px;
+    margin-top: 280px;
+    margin-left: 508px;
+    margin-bottom: 294px;
+    margin-right: 546px;
+    font-size: 24px;
+    text-align: center;
+}
+a {
+   border: solid white;
+   padding: 10px;
+   color: white;
+   text-decoration: none;
+   border-radius: 9px;
+}
+.title {
+    text-align: center;
+    width: 476px;
+    margin-left: 562px;
+    margin-right: 562px;
+}
+a:hover {
+    padding: 14px;
+    background-color: white; 
+    color: black;
+    font-size: 24px;
+    border-radius: 9px;
+}
+.serv {
+    font-size: 14px;
+    width: 476px;
+}
+.nav-item:hover {
+    font-size: 15px;
+    background-color: white; 
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.main {
+    width: 1600px;
+    height: 400px;
+}
+.Serv-cont {
+    justify-content: space-around;
+    width: 1600px;
+    display: flex;
+}
+.jojo {
+    width: 330px;
+    height: 63px;
+    font-size: 14px;
+    text-align: center;
+}
+.footer {
+    width:  1600px;
+    height: 308px;
+    background-color: rgb(255, 47, 0);
+}
+.footer-inner {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 718px;
+    margin-right: 718px;
+    height: 200px;
+}
+i {
+    border: solid white;
+    border-radius: 70px;
+    padding: 10px;
+    margin-top: 111px;
+}
+.ui {
+    text-align: center;
+    color: white;
+}
+.Clean:hover {
+    color: white;
+    background-color: black;
+    opacity: 0.9;
+    height: 290px;
+    border-radius: 10px;
+}
+.Rock:hover {
+    color: white;
+    background-color: black;
+    opacity: 0.9;
+    height: 290px;
+    border-radius: 10px;
+}
+.Expert:hover {
+    color: white;
+    background-color: black;
+    opacity: 0.9;
+    height: 290px;
+    border-radius: 10px;
+}
