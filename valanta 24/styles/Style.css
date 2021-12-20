@@ -546,6 +546,263 @@ h1 {
     border: 1px solid rgba(46, 46, 46, 0.2);
     box-sizing: border-box;
     border-radius: 2px;
-
+    display: flex;
+    flex-direction: row;
     margin-top: 10px;
+
+}
+.actual-tures-bottom1-2-1 {
+    width: 2000px;
+    
+    text-align: center;
+    border-left: rgba(46, 46, 46, 0.2) solid 1px;
+    border-right: rgba(46, 46, 46, 0.2) solid 1px;
+    line-height: 50px;
+    font-size: 15px;
+}
+.actual-tures-bottom1-2-2 {
+    width: 100px;
+    padding-right: 20px;
+    padding-left: 30px;
+    line-height: 50px;
+}
+.actual-tures-bottom1-2-3 {
+    line-height: 50px;
+}
+.mail {
+    width: 1440px;
+    height: 255px;
+    background: #DD4053;
+    margin-top: 90px;
+}
+.mail-inner {
+    position: absolute;
+    width: 1038px;
+    height: 255px;
+    margin-top: 60px;
+    margin-left: 201px;
+    margin-right: 201px;
+    display: flex;
+    flex-direction: column;
+}
+.mail-top {
+    display: flex;
+    flex-direction: row;
+}
+.mail-top1 {
+    width: 618px;
+    height: 55px;
+    font-size: 27px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin-right: 57px;
+}
+.mail-top2 {
+    font-size: 15px;
+    line-height: 26px;
+    width: 363px;
+    height: 52px;
+    color: #EFEFEF;
+
+}
+.mail-bottom {
+    display: flex;
+    flex-direction: row;
+
+}
+.mail-bottom1 {
+    margin-top: 31px;
+    width: 46px;
+    height: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-right: 344px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.mail-bottom2 {
+    width: 120px;
+    height: 25px;
+    margin-top: 43px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 45px;
+    word-spacing: 10px;
+}
+.mail-bottom3 {
+    width: 140px;
+    height: 25px;
+    margin-top: 43px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 45px;
+    word-spacing: 10px;
+}
+.mail-bottom4 {
+    width: 94px;
+    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #DA2032;
+    padding-left: 71px;
+    padding-right: 71px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.footer {
+    width: 1440px;
+    height: 630px;
+    background: #eeeded;
+}
+.footer-inner {
+    display: flex;
+    flex-direction: column;
+}
+.footer-top {
+    width: 1440px;
+    height: 290px;
+    margin-left: 201px;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-top-top {
+    display: flex;
+    flex-direction: row;
+}
+.footer-top1 {
+    width: 508px;
+    height: 110px;
+    font-size: 39px;
+    line-height: 55px;
+   
+}
+.footer-top2 {
+    font-size: 18px;
+    line-height: 30px;
+    width: 492px;
+    height: 60px;
+    margin-left: 40px;
+}
+.footer-top-bottom {
+    display: flex;
+    flex-direction: row;
+}
+.footer-bottom1 {
+    margin-top: 31px;
+    width: 46px;
+    height: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-right: 344px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 2px;
+    line-height: 20px;
+    color: #969696;;
+}
+.footer-bottom2 {
+    width: 140px;
+    height: 25px;
+    margin-top: 43px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: row;
+}
+.footer-bottom3 {
+    width: 94px;
+    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #DA2032;
+    padding-left: 71px;
+    padding-right: 71px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.footer-bottom2-1 {
+    width: 25px;
+    height: 25px;
+    color: #DD4053;
+    font-size: 25px;
+}
+.footer-bottom2-2 {
+    color: #969696;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.footer-bottom {
+    background: url(../img/SloveniaHeader\ 3.png);
+    width: 1440px;
+    height: 370px;
+}
+.footer-bottom-bg {
+    width: 1440px;
+    height: 370px;
+    background: linear-gradient(180deg, #ECECEC 0%, rgba(232, 232, 232, 0) 51.87%, #FFFFFF 100%);
+}
+.footer-logo {
+    background: none;
+}
+.footer-bottom-inner {
+    margin-left: 201px;
+    margin-top: 134px;
+    margin-right: 201px;
+    position: absolute;
+}
+.footer-bottom-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1038px;
+}
+.footer-bottom-top1 {
+    color: #3E3E3E;
+    margin-bottom: 8px;
+}
+.footer-bottom-top2 {
+    color: #3E3E3E;
+    margin-top: 25px;
+}
+.footer-hr {
+    width: 1036px;
+    height: 1px;
+    background: rgba(29, 29, 29, 0.2);
+    border-radius: 2px;
+    margin-top: 40px;
+}
+.footer-bottom-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-bottom-bottom1 {
+    width: 377px;
+    height: 18px;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: rgba(62, 62, 62, 0.5);
+}
+.footer-bottom-top0 {
+    margin: 2.5px;
 }
