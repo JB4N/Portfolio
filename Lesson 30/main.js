@@ -112,8 +112,35 @@ function begin10 () {
     alert(`произведение=${a**2*b**2}`)
     alert(`частное=${a**2/b**2}`)
 }
+function begin15 () {  
+    let S = Number(prompt('input'))
+    let D = (4*S/3.14)**0.5
+    let L = 3.14*D
+    alert(`S=${(3.14*D**2)/4}`)
+    alert(`D=${1/3.14}`)
+    alert(`L=${3.14*D}`)
+}
 function begin16 () {  
     let x1 = Number(prompt('input'))
     let x2 = Number(prompt('input'))
     alert(`расстояние=${x1-x2}`)
+}
+function begin32 () {  
+    let tc = Number(prompt('input'))
+    alert(`tc=${(-39)*5/9}`)
+}
+function integer1(){
+    let a = Number(prompt('input number'))
+    var l = (a/100) 
+    alert(round(l))
+}
+function integer2() {
+    let a = Number(prompt('input number'));
+    var m = a/1000;
+    alert(m)
+}
+function integer3(){
+    let a = Number(prompt('input number'))
+    var m = a/1024;
+    alert(m)
 }
