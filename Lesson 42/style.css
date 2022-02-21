@@ -1,0 +1,48 @@
+li {
+    display: flex;
+    flex-direction: row;
+    background: goldenrod;    
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.item--text {
+    margin-left: 20px;
+    margin-right: 200px;
+    margin-top: 25px;
+}
+.item--date {
+    margin-right: 100px;
+    margin-top: 25px;
+}
+.item--tag {
+    margin-right: 50px;
+    margin-top: 25px;
+}
+#btn-create {
+    background: red;
+    border-radius: 20px;
+    color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 50px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    background: orange;
+}
+input {
+    height: 30px;
+    margin-top: 15px;
+}
+label {
+    padding-top: 25px;
+}
+.btn {
+    padding: 25px;
+    color: white;
+}

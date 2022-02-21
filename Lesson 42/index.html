@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title> 
+</head> 
+<body> 
+    <div class="header">
+        <label for="text">Введите текст:</label> 
+        <input type="text" id="text" name="text"> 
+        <label for="tag">Тег:</label>
+        <select name="tag" id="tag"></select>
+        <div class="btn" id="btn-create">Create</div> 
+        <label for="sort">Сортировка:</label>
+        <select name="sort" id="sort"></select>
+    </div>
+    <div class="toDo"> 
+        <h1>To Do:</h1> 
+        <ol class="toDo--list"> 
+            <!-- <li class="toDo--item"> 
+                <div class="item--text"></div> 
+                <div class="item--tag"></div> 
+                <div class="item--date"></div> 
+                <div class="btn" onclick="moveToRestore(this)">Delete</div> 
+            </li> --> 
+        </ol> 
+    </div> 
+ 
+    <div class="restore"> 
+        <h1>Restore:</h1> 
+        <ol class="restore--list"> 
+ 
+        </ol> 
+    </div> 
+    <script src="./main.js"></script> 
+</body> 
+</html>
